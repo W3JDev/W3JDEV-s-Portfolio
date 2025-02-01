@@ -1,0 +1,1 @@
+{"scripts":{"build":"mkdir -p dist && cp -r index.html css js images dist/","deploy":"npm run build && npx serve dist"},"dependencies":{"@barba/core":"^2.10.3","gsap":"^3.12.7","jquery":"^3.5.1","lenis":"^1.1.20"}}
