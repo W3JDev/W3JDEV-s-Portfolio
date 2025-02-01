@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "build": "mkdir -p dist && cp -r index.html css js images dist/",
+      "deploy": "npm run build && npx serve dist"
+    }
+  }
